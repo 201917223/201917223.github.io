@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华北水利水电大学</title>
+    <style>
+        big_box{margin:0 auto;width:70%}
+        .left_box{float:left;width:800px;margin-right:5.5px}
+        .right_box{float:right;width:600px;margin-left:5.5px;}
+                             body{
+                                        background-image:url(背景图片.jpg);
+                                        background-size:cover;
+                                      }
+                                a {
+                                       text-decoration: none;
+                                    }
+        .navigation ul{
+                                 width:120%;
+                                 height:35px;
+                                 margin:0 auto;
+                                 background:#BFEFFF;
+                                }
+        .navigation ul li{
+                               width:100px;
+                               height:30px;
+                               color:white;
+                               line-height:30px; 
+                               text-align:center;
+                               list-style-type:none;
+                                float:left;
+                                font-family;
+                               }
+        .footer-san{
+                              background:transparent;
+                               height:30px;
+                             }
+        .o{
+              background:#7FFFD4;
+               height:30px;
+          }
+        
+        </style>
+        </head><body>
+        
+        <div class="box">
+          <div class="box 1">
+             <div class="navigation">
+        <img alt="logo_03" src="logo_03.jpg" width="600" height="70"/>
+        <ul>
+                        <li> <a href="index.html">首页</a></li>
+                        <li> <a href="华水历史.html">华水历史</a></li>
+                        <li> <a href="华水校友.html">华水校友</a> </li>       
+         </ul>
+        </div>
+        <div class="zhu">  
+        <div>
+        <div id="butong_net_right" style="overflow:hidden;width:100%;">
+        <table cellpadding="0" cellspacing="0" border="0">
+        <tr><td id="butong_net_right1" valign="top" align="center">
+        <table cellpadding="2" cellspacing="0" border="0">
+        <tr align="center">
+        <td><img src="4.jpg"></td>
+        <td><img src="5.jpg"></td>
+        <td><img src="6.jpg"></td>
+        </tr>
+        </table>
+        </td>
+        <td id="butong_net_right2" valign="top"></td>
+        </tr>
+        </table>
+        </div>
+        <script>
+        var speed=30//速度数值越大速度越慢
+        butong_net_right2.innerHTML=butong_net_right1.innerHTML
+        function Marquee4(){
+        if(butong_net_right.scrollLeft<=0)
+        butong_net_right.scrollLeft+=butong_net_right2.offsetWidth
+        else{
+        butong_net_right.scrollLeft--
+        }
+        }
+        var MyMar4=setInterval(Marquee4,speed)
+        butong_net_right.onmouseover=function() {clearInterval(MyMar4)}
+        butong_net_right.onmouseout=function() {MyMar4=setInterval(Marquee4,speed)}
+        </script>
+        </div> 
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <script src="js/tuofang.js"></script>
+        <hr><p><font color="white" size="3">学校简介</font></p></hr>
+        <div class="big_box">
+        <div class="left_box">
+        <img src="校园风光.jpg"  width=700px  height="400px"></div>
+        <div class="right_box"><p style="text-align: left; text-indent: 2em;"><font color="white" size="3">华北水利水电大学(North China University of Water Resources and Electric Power)建有花园校区(河南省郑州市北环路36号，占地面积555亩)、龙子湖校区(河南省郑州市金水东路136号，占地面积1780亩)，江淮校区（河南省信阳市罗山县龙池大道236号，占地面积1500亩）正在建设，是水利部与河南省共建、以河南省管理为主的高校，是河南省特色骨干大学，是全国首批硕士学位授予权单位、首批中西部高校基础能力建设工程高校、首批具有海外留学生招生资格高校、教育部卓越工程师教育培养计划高校，是教育部确定的“金砖国家网络大学”中方高校牵头单位。学校起源自1951年创建于北京的中央人民政府水利部水利学校，1954年更名为水利部北京水利学校。1958年北京水力发电学校、北京水力发电函授学院并入，成立北京水利水电学院。1969年迁至河北省磁县岳城水库办学，1971年更名为河北水利水电学院。1977年迁至河北省邯郸市办学，1978年更名为华北水利水电学院。1990年迁至河南省郑州市办学，2000年由水利部主管划转河南省管理，实行省部共建。2009年水利部与河南省政府签署共建华北水利水电学院战略协议。2013年更名为华北水利水电大学。2021年入选河南省“双一流”学科创建高校。</font></p>
+        <div class="o">
+        <form>
+        <p>请您对本网页打个分数(单选):
+         <input type="radio"  value="100" name="effect" checked="checked"/> 100
+         <input type="radio"  value="80" name="effect"/>80
+         <input type="radio"  value="60"name="effect" />60</p>
+        </form></div>
+        </div>
+        </div><div style="clear:both"></div>
+        
+        <div class="footer-san">
+        <p style="text-align:center"><font  size="2">------------信息工程学院-软件工程-2019172-201917223-赵晓莹------------</font></p>	
+        </div>
+        </div>   
+        </body>
+        </html>
+        
